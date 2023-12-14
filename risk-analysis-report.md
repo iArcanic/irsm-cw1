@@ -103,6 +103,8 @@ Efficient thread modeling focused on devices running Windows 11 Pro can help to 
 
 ### 2.4.4 Tier 4 – Ongoing risk monitoring
 
+This tier focuses on the ongoing tracking of information security risks through relevant key risk indicators (RKIs) to enable a quick response if needed. Implementing a Security Information and Event Management (SIEM) platform allowing the company to track critical risk metrics across Windows servers, endpoints, and Oracle Cloud assets. Setting up dashboards for information security admins with details on critical risks, reminders for patch delays, unathorised access attempts, and anomalous data transfers. This relies on the risk register (see 3) to be constantly updated with the latest mediation statuses related to high-priority threats. Any new infrastructure that the company decides to adopt will undergo risk evaluations to see how it synchronises with the other technology used, and if it compromises any existing infrastructure, thus introducing security gaps. This will further demonstrate compliance with UK governmental agencies and any new future contract proposals that the company will get.
+
 # 3 Risk register
 
 # 4 Mitigation strategies
