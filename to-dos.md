@@ -12,7 +12,7 @@
   - [x] 2.2 Assessment of the current IT infrastructure
     - [x] 2.2.1 Server infrastructure
     - [x] 2.2.2 Endpoints
-    - [ ] 2.3.3 Network components
+    - [x] 2.3.3 Network components
   - [ ] 2.3 Selection of risk assessment methodology
   - [ ] 2.4 NIST tiered risk management approach
 - [ ] 3 Risk register

@@ -56,6 +56,12 @@ The entirety of the company's endpoint fleet relies solely on Windows 11 Pro (ve
 
 ### 2.2.3 Network components
 
+Since network segmentation details are obscure due to the sensitivity of the information, not much assessment can be made on its current effectiveness relevant to security aspects. The current information given does not shed light on network security zoning concepts or if any access restrictions have been reinforced. However, given that the Research and Development (R&D) networking segment exists, the company may benefit from the introduction of VPNs and externally facing gateways.
+
+In general, however, basic network security concepts apply. If the company has most of its technology components connected via wireless over ethernet, this not only increases the attack surface for endpoints and cloud services but compromises network traffic confidentiality. Without proper authentication, encryption, access logging, and monitoring controls, a network's CIA (Confidentiality, Integrity, and Availability).
+
+In addition, although not directly security-related, thorough documentation should be a regular process that contains details about the network topology, external security access, and any wireless protection protocols. This will help the network administrators keep a track record of any changes that do occur, and if so, proactively make changes to address changes of any manner.
+
 ## 2.3 Selection of risk assessment methodology
 
 ## 2.4 NIST tiered risk management approach
