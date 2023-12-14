@@ -3,7 +3,7 @@
 ## Report structure tasks
 
 - [x] 1 Introduction
-- [x] 2 Standards, controls, and policies
+- [ ] 2 Standards, controls, and policies
   - [x] 2.1 Standards, controls, and policies
     - [x] 2.1.1 Governmental policies – Security Policy Framework (SPF)
     - [x] 2.1.2 ISO/IEC standards – 27001:2013
@@ -15,6 +15,10 @@
     - [x] 2.3.3 Network components
   - [x] 2.3 Selection of risk assessment methodology – NIST TRM
   - [ ] 2.4 NIST Tiered Risk Management (TRM) approach
+    - [x] 2.4.1 Tier 1 – Prioritisation and scope
+    - [ ] 2.4.2 Tier 2 – Infrastructure evaluation
+    - [ ] 2.4.3 Tier 3 – Risk assessment process
+    - [ ] 2.4.4 Tier 4 – Ongoing risk monitoring
 - [ ] 3 Risk register
 - [ ] 4 Mitigation strategies
 - [ ] 5 Future recommendations

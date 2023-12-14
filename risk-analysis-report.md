@@ -87,6 +87,18 @@ The above aspects lead themselves well, in terms of suitability for the organisa
 
 ## 2.4 NIST Tiered Risk Management (TRM) approach
 
+The TRM methodology selected, NIST, will now be applied to evaluate the cyber risks of this organisation, across the defined tiers mentioned in 2.3.
+
+### 2.4.1 Tier 1 – Prioritisation and scope
+
+The scope should be narrowed, as attempting to do an organisational-wide risk analysis approach would exceed the available bandwidth provided. Daily operations and serving customers, which are common company processes, include prioritised Active Directory (AD) servers, Microsoft Exchange environment, and Oracle SaaS-based enterprise solutions. Verified asset categories include covering the breadth of the 460 Windows 11 endpoints, 12 servers, and cloud applications. Additionally, sensitive data such as user credentials, may be stored in the AD, employee personal information on the Microsoft Exchange Server, and financial records within Oracle's cloud application. This is categoried as "high-value information assets", which required strict access controls.
+
+### 2.4.2 Tier 2 – Infrastructure evaluation
+
+### 2.4.3 Tier 3 – Risk assessment process
+
+### 2.4.4 Tier 4 – Ongoing risk monitoring
+
 # 3 Risk register
 
 # 4 Mitigation strategies
