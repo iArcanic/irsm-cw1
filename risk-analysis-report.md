@@ -115,13 +115,13 @@ A risk register is a tool to document all identified threats and vulnerabilities
 - "Assets affected": are the specific components of the infrastructure that the risk targets.
 
 | Risk ID | Risk description | Impact | Likelihood | Inherent risk rating | Assets affected |
-|---|---|---|---|---|---|
-| R1 | Outdated Windows 11 Pro server OS exposes services to remote code execution and privilege escalation exploits (PVE) | High | High | Extreme | AD servers E-mail servers |
-| R2 | Vulnerabilities in third-party apps like Oracle ERP Cloud applications enables backend server compromise May allow for data theft | High | Medium | High | Oracle ERP Cloud applications |
-| R3 | Lack of endpoint encryption results in breach of sensitive customer data if decide is lost or stolen | Medium | High | High | Windows 11 laptops and workstations |
-| R4 | Obsolete antivirus definitions are unable to recognise latest malware signatures which may lead to ransomware attacks | Medium | High | High | Windows endpoints |
-| R5 | Weak administrator passwords allows brute force or dictionary attacks and enables backend takeover | High | Medium | Extreme | Domain admin accounts |
-| R6 | Unpatched network devices acts as entry point for accessing other servers hosting sensitive information | Medium | Medium | Moderate | Firewalls Switches VPN devices |
+|:---:|:---|:---:|:---:|:---:|:---|
+| R1 | Outdated Windows 11 Pro server OS exposes services to remote code execution and privilege escalation exploits (PVE) | High | High | Extreme | AD servers, E-mail servers |
+| R2 | Vulnerabilities in third-party apps like Oracle ERP Cloud applications enable backend server compromise, may allow for data theft | High | Medium | High | Oracle ERP Cloud applications |
+| R3 | Lack of endpoint encryption results in the breach of sensitive customer data if the device is lost or stolen | Medium | High | High | Windows 11 laptops and workstations |
+| R4 | Obsolete antivirus definitions are unable to recognize the latest malware signatures, which may lead to ransomware attacks | Medium | High | High | Windows endpoints |
+| R5 | Weak administrator passwords allow brute force or dictionary attacks and enable backend takeover | High | Medium | Extreme | Domain admin accounts |
+| R6 | Unpatched network devices act as an entry point for accessing other servers hosting sensitive information | Medium | Medium | Moderate | Firewalls, Switches, VPN devices |
 
 # 4 Mitigation strategies
 
