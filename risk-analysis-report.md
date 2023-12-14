@@ -60,11 +60,32 @@ Since network segmentation details are obscure due to the sensitivity of the inf
 
 In general, however, basic network security concepts apply. If the company has most of its technology components connected via wireless over ethernet, this not only increases the attack surface for endpoints and cloud services but compromises network traffic confidentiality. Without proper authentication, encryption, access logging, and monitoring controls, a network's CIA (Confidentiality, Integrity, and Availability).
 
-In addition, although not directly security-related, thorough documentation should be a regular process that contains details about the network topology, external security access, and any wireless protection protocols. This will help the network administrators keep a track record of any changes that do occur, and if so, proactively make changes to address changes of any manner.
+In addition, although not directly security-related, thorough documentation should be a regular process that contains details about the network topology, external security access, and any wireless protection protocols. This will help the network administrators keep a track record of any changes that do occur, and if so, proactively make changes to address changes in any manner.
 
-## 2.3 Selection of risk assessment methodology
+## 2.3 Selection of risk assessment methodology – NIST TRM
 
-## 2.4 NIST tiered risk management approach
+The National Institute of Standards of Technology (NIST) Tiered Risk Management (TRM) approach has been chosen to be applied to this company under an information security assessment. This specific TRM however offers a four-tiered scalable method scalable method to evaluate an organisation's cybersecurity practices.
+
+Key features of this four-tiered TRM approach include:
+
+- Tier 1: Prioritisation and scope focus
+- Tier 2: Infrastructure evaluation
+- Tier 3: Risk assessment process
+- Tier 4: Ongoing risk monitoring
+
+For any TRM, a crucial point starting point involves framing out an organisation's priorities, values, aims, and resource bandwidth constraints. From this, subsequent activities intrinsic to the rest of the framework can be carried out.
+
+However, the key benefits of this TRM offered by NIST have to be in alignment with the company information security examination, so there needs to be robust justification as to why this specific TRM was chosen:
+
+- Flexibility in a scalable, but adaptable program based on the company's technological resource capabilities.
+- Promotes structure via the different tiers the TRM offers.
+- Enables the progressive building of risk knowledge via each iteration (or tier) of the TRM.
+- Allows for the continuous evolution and improvement through each iterative TRM loop.
+- Encourages and inspires confidence for buy-in and financial commitments over time.
+
+The above aspects lead themselves well, in terms of suitability for the organisation's objectives. A tiered progression path will help strike a balance between security optimization and capacity-related constraints.
+
+## 2.4 NIST Tiered Risk Management (TRM) approach
 
 # 3 Risk register
 

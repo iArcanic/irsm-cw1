@@ -13,8 +13,8 @@
     - [x] 2.2.1 Server infrastructure
     - [x] 2.2.2 Endpoints
     - [x] 2.3.3 Network components
-  - [ ] 2.3 Selection of risk assessment methodology
-  - [ ] 2.4 NIST tiered risk management approach
+  - [x] 2.3 Selection of risk assessment methodology – NIST TRM
+  - [ ] 2.4 NIST Tiered Risk Management (TRM) approach
 - [ ] 3 Risk register
 - [ ] 4 Mitigation strategies
 - [ ] 5 Future recommendations
