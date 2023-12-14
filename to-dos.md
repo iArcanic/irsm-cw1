@@ -3,7 +3,7 @@
 ## Report structure tasks
 
 - [x] 1 Introduction
-- [ ] 2 Standards, controls, and policies
+- [x] 2 Standards, controls, and policies
   - [x] 2.1 Standards, controls, and policies
     - [x] 2.1.1 Governmental policies – Security Policy Framework (SPF)
     - [x] 2.1.2 ISO/IEC standards – 27001:2013
@@ -19,7 +19,7 @@
     - [x] 2.4.2 Tier 2 – Infrastructure evaluation
     - [x] 2.4.3 Tier 3 – Risk assessment process
     - [x] 2.4.4 Tier 4 – Ongoing risk monitoring
-- [ ] 3 Risk register
+- [x] 3 Risk register
 - [ ] 4 Mitigation strategies
 - [ ] 5 Future recommendations
 - [ ] 6 Appendices

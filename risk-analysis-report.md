@@ -107,6 +107,22 @@ This tier focuses on the ongoing tracking of information security risks through 
 
 # 3 Risk register
 
+A risk register is a tool to document all identified threats and vulnerabilities that pose a problem to the organisation's commercial aims and technological resources, along with the corresponding risk parameters and what infrastructure aspects are affected. This table, developed specifically for this company, maps various cyber risk scenarios that arose as a result of using the NIST TRM to the following parameters:
+
+- "Impact": refers to the severity of commercial or technological consequences if the risk ends up happening
+- "Likelihood": stands for the probability based on existing infrastructure security gaps
+- "Inherent risk rating": is the product of the "Impact" and "Likelihood".
+- "Assets affected": are the specific components of the infrastructure that the risk targets.
+
+| Risk ID | Risk description | Impact | Likelihood | Inherent risk rating | Assets affected |
+|---|---|---|---|---|---|
+| R1 | Outdated Windows 11 Pro server OS exposes services to remote code execution and privilege escalation exploits (PVE) | High | High | Extreme | AD servers E-mail servers |
+| R2 | Vulnerabilities in third-party apps like Oracle ERP Cloud applications enables backend server compromise May allow for data theft | High | Medium | High | Oracle ERP Cloud applications |
+| R3 | Lack of endpoint encryption results in breach of sensitive customer data if decide is lost or stolen | Medium | High | High | Windows 11 laptops and workstations |
+| R4 | Obsolete antivirus definitions are unable to recognise latest malware signatures which may lead to ransomware attacks | Medium | High | High | Windows endpoints |
+| R5 | Weak administrator passwords allows brute force or dictionary attacks and enables backend takeover | High | Medium | Extreme | Domain admin accounts |
+| R6 | Unpatched network devices acts as entry point for accessing other servers hosting sensitive information | Medium | Medium | Moderate | Firewalls Switches VPN devices |
+
 # 4 Mitigation strategies
 
 # 5 Future recommendations
