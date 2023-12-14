@@ -36,9 +36,17 @@ Guidance for cloud-based services and technologies adapted for security controls
 
 ### 2.1.4 End user device guidelines – EUD Security Guidance
 
-Recommended risk treatment when considering deployment on the end user or personal devices to mitigate any remote-based vulnerabilities that could be exploited by malicious actors.
+Published by the UK National Cyber Security Centre (NCSC), it is the risk treatment when considering deployment on the end user or personal devices to mitigate any remote-based vulnerabilities that could be exploited by malicious actors. Aims to help organisations manage risks from remote attacks.
 
-## 2.2 Assess the current IT infrastructure
+## 2.2 Assessment of the current IT infrastructure
+
+From the current IT infrastructure, the business has an acclimation to using Microsoft technologies, to deliver their services, with company statistics detailing that 86% of servers and 100% of user devices are based on the Windows platform. Although the infrastructure devices use modern and widely adopted enterprise solutions to be suitable for mainstream support, there are still inherent vulnerabilities that need to be addressed. This may include a large attack surface area being exposed, posing a variety of problems from an information security standpoint.
+
+### 2.2.1 Server infrastructure
+
+### 2.2.2 Endpoints
+
+### 2.2.3 Network components
 
 ## 2.3 Selection of risk assessment methodology
 
@@ -50,4 +58,6 @@ Recommended risk treatment when considering deployment on the end user or person
 
 # 5 Future recommendations
 
-# 6 References
+# 6 Appendices
+
+# 7 References
