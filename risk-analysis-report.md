@@ -95,6 +95,8 @@ The scope should be narrowed, as attempting to do an organisational-wide risk an
 
 ### 2.4.2 Tier 2 – Infrastructure evaluation
 
+There is a technical lag from running out of support or outdated software – case in point, Windows 11 Pro, so this means that the OS is susceptible to known and publicly available exploits. For third-party services, however, there needs to be a detailed assessment of concepts such as Identity and Access Management (IAM), security monitoring, and key management. A diagnosis of Windows 11 Pro would reveal security gaps, such as pending AES-256 bit encryption for endpoints as well as anti-virus definitions, which results in older malware signatures. Keeping a good asset inventory will assist in identifying any misconfigurations and required server hardening.
+
 ### 2.4.3 Tier 3 – Risk assessment process
 
 ### 2.4.4 Tier 4 – Ongoing risk monitoring
