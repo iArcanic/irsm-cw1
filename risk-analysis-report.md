@@ -44,6 +44,12 @@ From the current IT infrastructure, the business has an acclimation to using Mic
 
 ### 2.2.1 Server infrastructure
 
+Looking more in-depth at the server landscape, 12 of their servers consist of Microsoft Server 2022 (specifically build 10.0.20348.1787) whilst the rest of the 2 servers host Linux Ubuntu 22.04 LTS. Both are critical to the key services of the company's computing environment, for functions such as Active Directory, e-mail, website hosting, DNS, and Oracle Cloud ERP services.
+
+Even though the more up-to-date version of Windows is potentially more suitable for modern technological purposes, malicious entities work tirelessly to develop evolving exploits, so routine and timely patching is required. Additionally, third-party providers. such as Oracle, in this case, presents its own set of unique problems, in which vulnerability mitigation requires a coordinated response from both companies.
+
+Specifically, the Research and Development (R&D) Engineering network segment – its specific division from the main production platform – indicates the presence of data flows to other environments, which may be intercepted in transmission. If there is an obvious lack of visibility of common server hardening practices that meet typical industrial baselines, the entire company's technological infrastructure could be exposed. This therefore makes these servers less trustworthy.
+
 ### 2.2.2 Endpoints
 
 ### 2.2.3 Network components
