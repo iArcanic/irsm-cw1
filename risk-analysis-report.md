@@ -99,6 +99,8 @@ There is a technical lag from running out of support or outdated software – ca
 
 ### 2.4.3 Tier 3 – Risk assessment process
 
+Efficient thread modeling focused on devices running Windows 11 Pro can help to recognise ransomware, password dictionary attacks, and insider threats and will all be considered high-impact information security events. For the Azure-hosted Oracle cloud solution applications, unauthorised data processing actions and lack of awareness when handling data, in general, should alert the Cloud Security Alliance (CSA). There should be rigorous documentation addressing risk scenarios specific to the company's information security – any likelihood and magnitudes. The mapping of any risks will help realise what security aspects most of the company's attention is required for, and what mitigation strategies need to be put in place.
+
 ### 2.4.4 Tier 4 – Ongoing risk monitoring
 
 # 3 Risk register

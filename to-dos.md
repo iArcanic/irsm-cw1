@@ -17,7 +17,7 @@
   - [ ] 2.4 NIST Tiered Risk Management (TRM) approach
     - [x] 2.4.1 Tier 1 – Prioritisation and scope
     - [x] 2.4.2 Tier 2 – Infrastructure evaluation
-    - [ ] 2.4.3 Tier 3 – Risk assessment process
+    - [x] 2.4.3 Tier 3 – Risk assessment process
     - [ ] 2.4.4 Tier 4 – Ongoing risk monitoring
 - [ ] 3 Risk register
 - [ ] 4 Mitigation strategies
