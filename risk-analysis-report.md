@@ -52,6 +52,8 @@ Specifically, the Research and Development (R&D) Engineering network segment –
 
 ### 2.2.2 Endpoints
 
+The entirety of the company's endpoint fleet relies solely on Windows 11 Pro (version 22H2), which has already been flagged as "end of support" by Microsoft themselves. This has a huge impact on future updates and security patches. Even generic configurations of system settings via the Control Centre could lead to vulnerabilities being brought to fruition. An over-dependence on Microsoft services only could lead to prominent security gaps. There are also issues in accommodating BYOD (Bring Your Own Device) schemes to be flexible for different company employees for various preferences to productivity lifestyles, such as the recent rise of remote working, for example.
+
 ### 2.2.3 Network components
 
 ## 2.3 Selection of risk assessment methodology
