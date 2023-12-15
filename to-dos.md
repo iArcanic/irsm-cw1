@@ -29,7 +29,7 @@
   - [x] ~~4.6 R6 mitigation – Unpatched network devices~~
 - [ ] 5 Future recommendations
   - [x] 5.1 Adopting an information security framework
-  - [ ] 5.2 Enhancing identity and access protections
+  - [x] 5.2 Enhancing identity and access protections
   - [ ] 5.3 Instituting configuration hardening standards
   - [ ] 5.4 Implementing SIEM-based security monitoring
 - [ ] 6 References
