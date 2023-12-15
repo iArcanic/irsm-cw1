@@ -109,10 +109,10 @@ This tier focuses on the ongoing tracking of information security risks through 
 
 A risk register is a tool to document all identified threats and vulnerabilities that pose a problem to the organisation's commercial aims and technological resources, along with the corresponding risk parameters and what infrastructure aspects are affected. This table, developed specifically for this company, maps various cyber risk scenarios that arose as a result of using the NIST TRM to the following parameters:
 
-- "Impact": refers to the severity of commercial or technological consequences if the risk ends up happening
-- "Likelihood": stands for the probability based on existing infrastructure security gaps
-- "Inherent risk rating": is the product of the "Impact" and "Likelihood".
-- "Assets affected": are the specific components of the infrastructure that the risk targets.
+- $Impact$: refers to the severity of commercial or technological consequences if the risk ends up happening
+- $Likelihood$: stands for the probability based on existing infrastructure security gaps
+- $Inherent\space risk\space rating$: is the product of the $Impact$ and $Likelihood$.
+- $Assets\space affected$: are the specific components of the infrastructure that the risk targets.
 
 | Risk ID | Risk description | Impact | Likelihood | Inherent risk rating | Assets affected |
 |:---:|:---|:---:|:---:|:---:|:---|
@@ -124,6 +124,20 @@ A risk register is a tool to document all identified threats and vulnerabilities
 | R6 | Unpatched network devices act as an entry point for accessing other servers hosting sensitive information | Medium | Medium | Moderate | Firewalls, Switches, VPN devices |
 
 # 4 Mitigation strategies
+
+Effective mitigation strategies are a combination of introducing multiple security controls. The aim, given in mind the $Inherent\space risk\space rating$ rating, would be to reduce the risk likelihood or the impact itself. A wide range of intervention measures should be employed, including those that are technical, operational, or commercial. Any thought of measures should efficiently address information security gaps within the existing infrastructure technology, as brought up by the risk assessment conducted.
+
+## 4.1 R1 mitigation – Outdated Windows Server OS
+
+## 4.2 R2 mitigation – Vulnerable Oracle Enterprise Cloud Solution
+
+## 4.3 R3 mitigation – Unencrypted endpoints
+
+## 4.4 R4 mitigation – Obsolete antivirus definitions
+
+## 4.5 R5 mitigation – Weak administrator passwords
+
+## 4.6 R6 mitigation – Unpatched network devices
 
 # 5 Future recommendations
 
