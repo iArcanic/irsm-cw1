@@ -145,6 +145,8 @@ If there are any automated processes regarding antivirus definitions within the 
 
 ## 4.5 R5 mitigation – Weak administrator passwords
 
+Multi-factor authentication (MFA) should be enforced for all accounts and interfaces provided administrative access including domain controller logins to provide additional proof. Provision Privileged Access Management (PAM) solutions can serve as a secure password vault for administrator accounts. There should also be continuous scans for all password hashes across all systems within the infrastructure to pinpoint any weak credentials in active use – used in conjunction with strict password policies enforced by the company. The attack surface can be further reduced by disabling Windows file share mappings, which can easily help an attacker traverse and map a data flow. Also limiting endpoint workstations that host developer tools, such as debuggers and compilers – attackers may potentially load exploits via those applications.
+
 ## 4.6 R6 mitigation – Unpatched network devices
 
 # 5 Future recommendations

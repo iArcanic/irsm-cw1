@@ -25,7 +25,7 @@
   - [x] 4.2 R2 mitigation – Vulnerable Oracle Enterprise Cloud Solution
   - [x] 4.3 R3 mitigation – Unencrypted endpoints
   - [x] 4.4 R4 mitigation – Obsolete antivirus definitions
-  - [ ] 4.5 R5 mitigation – Weak administrator passwords
+  - [x] 4.5 R5 mitigation – Weak administrator passwords
   - [ ] 4.6 R6 mitigation – Unpatched network devices
 - [ ] 5 Future recommendations
 - [ ] 6 Appendices
