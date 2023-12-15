@@ -133,6 +133,8 @@ This risk arises as a result of using an unsupported version of Microsoft Window
 
 ## 4.2 R2 mitigation – Vulnerable Oracle Enterprise Cloud Solution
 
+The cloud-based Oracle Enterprise Solution platform would benefit from a coordinated mitigation plan between the provider and the tenant. From the viewpoint of the tenant, any user accounts and their corresponding roles should be examined to ensure that any inactive identities and least privilege principles are promptly immobilised. Procedures involving data classification will swiftly categorise any sensitive financial information traversing within Oracle's data flow and prevent any data loss. It is also Oracle's responsibility to provide reliable assurance of their security certifications, vulnerability remediation measures, and patch deployments via clear documentation. Without this, the company should not announce a shift to using any Oracle services.
+
 ## 4.3 R3 mitigation – Unencrypted endpoints
 
 ## 4.4 R4 mitigation – Obsolete antivirus definitions
