@@ -157,6 +157,8 @@ While the mitigation strategies outlined in the previous section focus on addres
 
 ## 5.1 Adopting an information security framework
 
+An Information Security Management System (ISMS) based on internationally well-known standards, such as ISO:27001 or the NIST Cybersecurity Framework can establish a structured approach to managing information risks with clear and defined policies, procedures, and controls. The ISMS is determined by factors such as the company's threat landscape and acceptable risk tolerance. This will promote security governance through industry best practices such as benchmarking, audits, and periodic gauging or security measures. An extensive documentation process will help the organisation to demonstrate diligence and maturity when it comes to information security.
+
 ## 5.2 Enhancing identity and access protections
 
 ## 5.3 Instituting configuration hardening standards
