@@ -125,109 +125,24 @@ A risk register is a tool to document all identified threats and vulnerabilities
 | R6 | Unpatched network devices act as an entry point for accessing other servers hosting sensitive information | Medium | Medium | Moderate | Firewalls, Switches, VPN devices |
 -->
 
-<!DOCTYPE html>
-<html>
+| Risk ID | Risk description | Impact | Likelihood | Inherent risk rating | Assets affected |
+|---|---|---|---|---|---|
+| R1 | Outdated Windows 11 Pro server OS exposes services to remote code execution and privilege escalation exploits (PVE) | High | High | Extreme | AD servers, E-mail servers |
 
-<head>
-  <title>Description of Risks and Impacts</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-    }
+|---|---|---|---|---|---|
+| R2 | Vulnerabilities in third-party apps like Oracle ERP Cloud applications enable backend server compromise, may allow for data theft | High | Medium | High | Oracle ERP Cloud applications |
 
-    h2 {
-      color: #333;
-    }
+|---|---|---|---|---|---|
+| R3 | Lack of endpoint encryption results in the breach of sensitive customer data if the device is lost or stolen | Medium | High | High | Windows 11 laptops and workstations |
 
-    table {
-      border-collapse: collapse;
-      width: 100%;
-      margin-top: 20px;
-    }
+|---|---|---|---|---|---|
+| R4 | Obsolete antivirus definitions are unable to recognize the latest malware signatures, which may lead to ransomware attacks | Medium | High | High | Windows endpoints |
 
-    th, td {
-      border: 1px solid #dddddd;
-      text-align: left;
-      padding: 8px;
-    }
+|---|---|---|---|---|---|
+| R5 | Weak administrator passwords allow brute force or dictionary attacks and enable backend takeover | High | Medium | Extreme | Domain admin accounts |
 
-    th {
-      background-color: #f2f2f2;
-    }
-  </style>
-</head>
-
-<body>
-
-  <h2>Description of Risks and Impacts</h2>
-
-  <table>
-    <thead>
-      <tr>
-        <th>Risk ID</th>
-        <th>Risk description</th>
-        <th>Impact</th>
-        <th>Likelihood</th>
-        <th>Inherent risk rating</th>
-        <th>Assets affected</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>R1</td>
-        <td>Outdated Windows 11 Pro server OS exposes services to remote code execution and privilege escalation exploits (PVE)</td>
-        <td>High</td>
-        <td>High</td>
-        <td>Extreme</td>
-        <td>AD servers, E-mail servers</td>
-      </tr>
-      <tr>
-        <td>R2</td>
-        <td>Vulnerabilities in third-party apps like Oracle ERP Cloud applications enable backend server compromise and may allow for data theft</td>
-        <td>High</td>
-        <td>Medium</td>
-        <td>High</td>
-        <td>Oracle ERP Cloud applications</td>
-      </tr>
-      <tr>
-        <td>R3</td>
-        <td>Lack of endpoint encryption results in the breach of sensitive customer data if the device is lost or stolen</td>
-        <td>Medium</td>
-        <td>High</td>
-        <td>High</td>
-        <td>Windows 11 laptops and workstations</td>
-      </tr>
-      <tr>
-        <td>R4</td>
-        <td>Obsolete antivirus definitions are unable to recognize the latest malware signatures, which may lead to ransomware attacks</td>
-        <td>Medium</td>
-        <td>High</td>
-        <td>High</td>
-        <td>Windows endpoints</td>
-      </tr>
-      <tr>
-        <td>R5</td>
-        <td>Weak administrator passwords allow brute force or dictionary attacks and enable backend takeover</td>
-        <td>High</td>
-        <td>Medium</td>
-        <td>Extreme</td>
-        <td>Domain admin accounts</td>
-      </tr>
-      <tr>
-        <td>R6</td>
-        <td>Unpatched network devices act as an entry point for accessing other servers hosting sensitive information</td>
-        <td>Medium</td>
-        <td>Medium</td>
-        <td>Moderate</td>
-        <td>Firewalls, Switches, VPN devices</td>
-      </tr>
-    </tbody>
-  </table>
-
-</body>
-
-</html>
+|---|---|---|---|---|---|
+| R6 | Unpatched network devices act as an entry point for accessing other servers hosting sensitive information | Medium | Medium | Moderate | Firewalls, Switches, VPN devices |
 
 # 4 Mitigation strategies
 
