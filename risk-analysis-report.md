@@ -165,6 +165,8 @@ Upgrading identity management and access controls through implementing additiona
 
 ## 5.3 Instituting configuration hardening standards
 
+Configuration baselines should be formalised, specifically for this company's infrastructure by utilising industry benchmarks to avoid data exposure. Templates mapping best system hardening recommendations, especially for platforms such as Windows, would be beneficial for those servers and endpoints, as it would guide IT teams in sunsetting vulnerable configurations. Compliance can then be tested against established criteria outlined through automated tools.
+
 ## 5.4 Implementing SIEM-based security monitoring
 
 # 6 References
