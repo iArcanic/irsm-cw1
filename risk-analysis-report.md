@@ -125,7 +125,7 @@ A risk register is a tool to document all identified threats and vulnerabilities
 
 # 4 Mitigation strategies
 
-Effective mitigation strategies are a combination of introducing multiple security controls. The aim, given in mind the $Inherent$ $risk$ $rating$ rating, would be to reduce the risk likelihood or the impact itself. A wide range of intervention measures should be employed, including those that are technical, operational, or commercial. Any thought of measures should efficiently address information security gaps within the existing infrastructure technology, as brought up by the risk assessment conducted.
+Effective mitigation strategies are a combination of introducing multiple security controls. The aim, given in mind the $Inherent$ $risk$ $rating$, would be to reduce the risk likelihood or the impact itself. A wide range of intervention measures should be employed, including those that are technical, operational, or commercial. Any thought of measures should efficiently address information security gaps within the existing infrastructure technology, as brought up by the risk assessment conducted.
 
 ## 4.1 R1 mitigation – Outdated Windows Server OS
 
@@ -140,6 +140,8 @@ The cloud-based Oracle Enterprise Solution platform would benefit from a coordin
 A simple, but effective mitigation strategy would be to use full-disk encryptions through leveraging software such as BitLocker. The application would be necessary for all endpoint devices currently used by the infrastructure – laptops, desktops, and mobile devices. A Standardised Trusted Platform Module (STPM) can enable secure cryptographic storage for BitLocker's (or any encryption software for that matter) encryption keys. For existing hardware assets, this encryption process needs to be integrated into their typical lifecycle through straightforward interfaces to block unauthorised devices from accessing the infrastructure. This can even serve as an interim mitigation until full data protection measures are established.
 
 ## 4.4 R4 mitigation – Obsolete antivirus definitions
+
+If there are any automated processes regarding antivirus definitions within the infrastructure technology, these need to be reviewed when updates are applied across all Windows endpoints. With endpoint protection enforced, the vendor will publish patches that include the malware definition for the latest threats. To further complement this, malware entry points should be reduced via prevention measures, such as enhanced spam filtering on mail gateways. Where feasible, the migration to advanced endpoint detection resources (EDR) tools to identify suspicious activity and incoherent signatures should be considered. Perhaps even options to segregate to different network segments for outdated endpoint devices lacking the latest detection for malware signatures.
 
 ## 4.5 R5 mitigation – Weak administrator passwords
 
