@@ -153,6 +153,14 @@ All network components within the infrastructure need to be tracked, including d
 
 # 5 Future recommendations
 
-# 6 Appendices
+While the mitigation strategies outlined in the previous section focus on addressing the specific information security gaps and cyber risks identified in the risk assessment of the current state of the company's infrastructure, long-term information security management requires embracing evolving preventative measures as well. Implementing the following recommendations will facilitate greater data protection, improved threat visibility, and overall maturity in managing risks. This would be roadmaps across different areas in the organisation's infrastructure.
 
-# 7 References
+## 5.1 Adopting an information security framework
+
+## 5.2 Enhancing identity and access protections
+
+## 5.3 Instituting configuration hardening standards
+
+## 5.4 Implementing SIEM-based security monitoring
+
+# 6 References
