@@ -169,4 +169,6 @@ Configuration baselines should be formalised, specifically for this company's in
 
 ## 5.4 Implementing SIEM-based security monitoring
 
+Deploying a managed SIEM platform for correlating security event data using risk-based intelligence will provide constant visibility into anomalies, attempted data breaches, or incidents across the company's hybrid infrastructure. Automated response playbooks can help trigger containment measures around detection based on the severity gauged by the risk register (see 3). Ongoing tuning of use case rules can help the organisation's infrastructure in proactive risk mitigation.
+
 # 6 References
