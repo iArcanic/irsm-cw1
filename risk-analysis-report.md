@@ -111,8 +111,8 @@ A risk register is a tool to document all identified threats and vulnerabilities
 
 - $Impact$: refers to the severity of commercial or technological consequences if the risk ends up happening
 - $Likelihood$: stands for the probability based on existing infrastructure security gaps
-- $Inherent\space risk\space rating$: is the product of the $Impact$ and $Likelihood$.
-- $Assets\space affected$: are the specific components of the infrastructure that the risk targets.
+- $Inherent$ $risk$ $rating$: is the product of the $Impact$ and $Likelihood$.
+- $Assets$ $affected$: are the specific components of the infrastructure that the risk targets.
 
 | Risk ID | Risk description | Impact | Likelihood | Inherent risk rating | Assets affected |
 |:---:|:---|:---:|:---:|:---:|:---|
@@ -125,7 +125,7 @@ A risk register is a tool to document all identified threats and vulnerabilities
 
 # 4 Mitigation strategies
 
-Effective mitigation strategies are a combination of introducing multiple security controls. The aim, given in mind the $Inherent\space risk\space rating$ rating, would be to reduce the risk likelihood or the impact itself. A wide range of intervention measures should be employed, including those that are technical, operational, or commercial. Any thought of measures should efficiently address information security gaps within the existing infrastructure technology, as brought up by the risk assessment conducted.
+Effective mitigation strategies are a combination of introducing multiple security controls. The aim, given in mind the $Inherent$ $risk$ $rating$ rating, would be to reduce the risk likelihood or the impact itself. A wide range of intervention measures should be employed, including those that are technical, operational, or commercial. Any thought of measures should efficiently address information security gaps within the existing infrastructure technology, as brought up by the risk assessment conducted.
 
 ## 4.1 R1 mitigation – Outdated Windows Server OS
 
