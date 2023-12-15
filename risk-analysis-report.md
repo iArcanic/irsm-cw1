@@ -137,6 +137,8 @@ The cloud-based Oracle Enterprise Solution platform would benefit from a coordin
 
 ## 4.3 R3 mitigation – Unencrypted endpoints
 
+A simple, but effective mitigation strategy would be to use full-disk encryptions through leveraging software such as BitLocker. The application would be necessary for all endpoint devices currently used by the infrastructure – laptops, desktops, and mobile devices. A Standardised Trusted Platform Module (STPM) can enable secure cryptographic storage for BitLocker's (or any encryption software for that matter) encryption keys. For existing hardware assets, this encryption process needs to be integrated into their typical lifecycle through straightforward interfaces to block unauthorised devices from accessing the infrastructure. This can even serve as an interim mitigation until full data protection measures are established.
+
 ## 4.4 R4 mitigation – Obsolete antivirus definitions
 
 ## 4.5 R5 mitigation – Weak administrator passwords
