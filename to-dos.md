@@ -20,13 +20,13 @@
     - [x] 2.4.3 Tier 3 – Risk assessment process
     - [x] 2.4.4 Tier 4 – Ongoing risk monitoring
 - [x] 3 Risk register
-- [ ] 4 Mitigation strategies
+- [x] 4 Mitigation strategies
   - [x] 4.1 R1 mitigation – Outdated Windows Server OS
   - [x] 4.2 R2 mitigation – Vulnerable Oracle Enterprise Cloud Solution
   - [x] 4.3 R3 mitigation – Unencrypted endpoints
   - [x] 4.4 R4 mitigation – Obsolete antivirus definitions
   - [x] 4.5 R5 mitigation – Weak administrator passwords
-  - [ ] 4.6 R6 mitigation – Unpatched network devices
+  - [x] 4.6 R6 mitigation – Unpatched network devices
 - [ ] 5 Future recommendations
 - [ ] 6 Appendices
 - [ ] 7 References

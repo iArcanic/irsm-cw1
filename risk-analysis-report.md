@@ -149,6 +149,8 @@ Multi-factor authentication (MFA) should be enforced for all accounts and interf
 
 ## 4.6 R6 mitigation – Unpatched network devices
 
+All network components within the infrastructure need to be tracked, including devices such as routers, switches, firewalls, and load balancers deployed on on-premise and cloud environments. Devices that continue to receive firmware debates that address vulnerability disclosures should remain supported. If a hardware device reaches the "end of support" status, network segmentation gateways should allow for lateral traversal across the different zones whilst that device is being replaced and integrated within the infrastructure's network. Network configurations against industry benchmarks should be a standard as it helps to minmise threats from exploitable network settings. If in the instance that there is a compromise, sufficient backup controls should be implemented, like additional robust firewalls to section off legacy equipment until they can either be patched or decommissioned.
+
 # 5 Future recommendations
 
 # 6 Appendices
