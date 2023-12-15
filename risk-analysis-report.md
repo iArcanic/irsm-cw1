@@ -129,6 +129,8 @@ Effective mitigation strategies are a combination of introducing multiple securi
 
 ## 4.1 R1 mitigation – Outdated Windows Server OS
 
+This risk arises as a result of using an unsupported version of Microsoft Windows Server – still active within the organisation's infrastructure, meaning that it opens exposure to publicly available vulnerabilities where security patches are still necessary. This opens up a much-needed migration plan, in which an upgrade to the latest Windows Server OS (or a Linux equivalent alternatively) should be the main priority. Additionally, regular OS patches in the form of updates should be automated using in-build tools such as Windows Server Update Services (WSUS) rather than relying on system administrators to manually apply patches. Furthermore, legacy servers with any pending updates should be hardened and reviewed against credible benchmarking software, such as CIS. Finally, constant access reviews on the Active Directory can help minimise the attack surface.
+
 ## 4.2 R2 mitigation – Vulnerable Oracle Enterprise Cloud Solution
 
 ## 4.3 R3 mitigation – Unencrypted endpoints
