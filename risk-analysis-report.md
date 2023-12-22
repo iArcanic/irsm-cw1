@@ -6,7 +6,7 @@ toc: true
 toc-title: Table of Contents
 toc-depth: 3
 fontsize: 10
-geometry: "left=2cm, right=2cm, top=2cm, bottom=2cm"
+geometry: "left=2cm, right=2cm, top=2cm, bottom=2cm, letterpaper, landscape"
 csl: harvard-imperial-college-london.csl
 ---
 
@@ -113,12 +113,6 @@ A risk register is a tool to document all identified threats and vulnerabilities
 - $Likelihood$: stands for the probability based on existing infrastructure security gaps [@Prasanna2021].
 - $Risk$ $rating$: is the product of the $Impact$ and $Likelihood$ [@Prasanna2021].
 - $Assets$ $affected$: are the specific components of the infrastructure that the risk targets [@Prasanna2021].
-
-<style>
-table {
-    font-size: 0.8em;
-}
-</style>
 
 | Risk ID | Risk description                                                                                      | CVEs                                                           | Impact | Likelihood | Risk rating | Assets affected                  |
 | :-----: | :---------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | :----: | :--------: | :---------: | :------------------------------- |
