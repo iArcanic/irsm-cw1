@@ -157,7 +157,7 @@ An Information Security Management System (ISMS) based on internationally well-k
 
 ## 5.2 Enhancing identity and access protections
 
-Upgrading identity management and access controls through implementing additional safeguards like Privileged Access Management (PAM) [@Gabris2021] solutions and Multi-factor Authentication (MFA) [@Ometov2018]. The introduction of these two security mechanisms will help to limit the exposure of confidential data or critical system assets – in the case of stolen account credentials. Regular reviews of account privileges will assist in mapping specific application roles to certain job functions only to tighten access spans.
+Upgrading identity management and access controls through implementing additional safeguards like Privileged Access Management (PAM) [@Garbis2021] solutions and Multi-factor Authentication (MFA) [@Ometov2018]. The introduction of these two security mechanisms will help to limit the exposure of confidential data or critical system assets – in the case of stolen account credentials. Regular reviews of account privileges will assist in mapping specific application roles to certain job functions only to tighten access spans.
 
 ## 5.3 Instituting configuration hardening standards
 
