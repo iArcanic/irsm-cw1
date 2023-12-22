@@ -113,21 +113,14 @@ A risk register is a tool to document all identified threats and vulnerabilities
 - $Inherent$ $risk$ $rating$: is the product of the $Impact$ and $Likelihood$ [@Prasanna2021].
 - $Assets$ $affected$: are the specific components of the infrastructure that the risk targets [@Prasanna2021].
 
-\begin{table}[htb]
-\centering
-\begin{tabular}{|p{0.05\textwidth}|p{0.25\textwidth}|p{0.1\textwidth}|p{0.1\textwidth}|p{0.25\textwidth}|p{0.1\textwidth}|}
-\hline
-Risk ID & Risk description & CVEs (if applicable) & Impact & Likelihood & Inherent risk rating & Assets affected \\
-\hline
-R1 & Outdated Windows 11 Pro server OS exposes services to remote code execution and privilege escalation exploits (PVE) & [@cve202335633] & High & High & Extreme & AD servers, E-mail servers \\
-R2 & Vulnerabilities in third-party apps like Oracle ERP Cloud applications enable backend server compromise, may allow for data theft & [@cve20212320], [@cve20212319], [@cve20212318], [@cve20212317] & High & Medium & High & Oracle ERP Cloud applications \\
-R3 & Lack of endpoint encryption results in the breach of sensitive customer data if the device is lost or stolen & [@cve202328005] & Medium & High & High & Windows 11 laptops and workstations \\
-R4 & Outdated antivirus definitions are unable to recognize the latest malware signatures, which may lead to ransomware attacks & [@wndfav0000292023] (CVE ID not available) & Medium & High & High & Windows endpoints \\
-R5 & Weak administrator passwords allow brute force or dictionary attacks and enable backend takeover & [@cve20221039] (For Linux hosts) & High & Medium & Extreme & Domain admin accounts \\
-R6 & Unpatched network devices act as an entry point for accessing other servers hosting sensitive information & N/A, due to obscurity of network details & Medium & Medium & Moderate & Firewalls, Switches, VPN devices \\
-\hline
-\end{tabular}
-\end{table}
+| Risk ID | Risk description                                                                                                                  | CVEs (if applicable)                                           | Impact | Likelihood | Inherent risk rating | Assets affected                     |
+| :-----: | :-------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | :----: | :--------: | :------------------: | :---------------------------------- |
+|   R1    | Outdated Windows 11 Pro server OS exposes services to remote code execution and privilege escalation exploits (PVE)               | [@cve202335633]                                                |  High  |    High    |       Extreme        | AD servers, E-mail servers          |
+|   R2    | Vulnerabilities in third-party apps like Oracle ERP Cloud applications enable backend server compromise, may allow for data theft | [@cve20212320], [@cve20212319], [@cve20212318], [@cve20212317] |  High  |   Medium   |         High         | Oracle ERP Cloud applications       |
+|   R3    | Lack of endpoint encryption results in the breach of sensitive customer data if the device is lost or stolen                      | [@cve202328005]                                                | Medium |    High    |         High         | Windows 11 laptops and workstations |
+|   R4    | Outdated antivirus definitions are unable to recognize the latest malware signatures, which may lead to ransomware attacks        | [@wndfav0000292023] (CVE ID not available)                     | Medium |    High    |         High         | Windows endpoints                   |
+|   R5    | Weak administrator passwords allow brute force or dictionary attacks and enable backend takeover                                  | [@cve20221039] (For Linux hosts)                               |  High  |   Medium   |       Extreme        | Domain admin accounts               |
+|   R6    | Unpatched network devices act as an entry point for accessing other servers hosting sensitive information                         | N/A, due to obscurity of network details                       | Medium |   Medium   |       Moderate       | Firewalls, Switches, VPN devices    |
 
 # 4 Mitigation strategies
 
