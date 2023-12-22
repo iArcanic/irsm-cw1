@@ -5,6 +5,9 @@ bibliography: references.bib
 toc: true
 toc-title: Table of Contents
 toc-depth: 3
+latex_engine: xelatex
+keep_tex: true
+geometry: margin=1in
 csl: harvard-imperial-college-london.csl
 ---
 
@@ -36,7 +39,7 @@ Guidance for cloud-based services and technologies, adapted for security control
 
 ### 2.1.4 End user device guidelines – EUD Security Guidance
 
-Published by the UK National Cyber Security Centre (NCSC), it is the risk treatment when considering deployment on the end user or personal devices to mitigate any remote-based vulnerabilities that could be exploited by malicious actors. Aims to help organisations manage risks from remote attacks.
+Published by the UK National Cyber Security Centre (NCSC), it is the risk treatment when considering deployment on the end user or personal devices to mitigate any remote-based vulnerabilities that could be exploited by malicious actors [@ncsc2021]. Aims to help organisations manage risks from remote attacks.
 
 ## 2.2 Assessment of the current IT infrastructure
 
@@ -48,11 +51,11 @@ Looking more in-depth at their server landscape, 12 servers consist of Microsoft
 
 Even though the more up-to-date version of Windows may be more suitable for modern technological standards, malicious entities work tirelessly to develop evolving exploits, so routine and timely patching is required. Additionally, third-party providers such as Oracle present their own set of unique problems, in which vulnerability mitigation requires a coordinated response from both companies.
 
-Specifically, the Research and Development (R&D) Engineering network segment indicates the presence of data flows to other environments, which may be intercepted in transmission. If there is an obvious lack of visibility of common server hardening practices that meet typical industrial baselines, the entire company's technological infrastructure could be exposed. This therefore makes these servers less trustworthy.
+Specifically, the Research and Development (R&D) Engineering network segment indicates the presence of data flows to other environments, which may be intercepted in transmission [@Zou2013]. If there is an obvious lack of visibility of common server hardening practices that meet typical industrial baselines, the entire company's technological infrastructure could be exposed. This therefore makes these servers less trustworthy.
 
 ### 2.2.2 Endpoints
 
-The entirety of the company's endpoint fleet relies on Windows 11 Pro (version 22H2), which has already been flagged as "end of support" [@MicrosoftCorporation2023] by Microsoft themselves (within approximately 9 months). This has a huge impact on future updates and security patches. Even generic configurations of system settings via the Control Panel could lead to vulnerabilities [@DMCXBlueRedTeam2022] being brought to fruition. An over-dependence on Microsoft services only could lead to prominent security gaps. There are also issues in accommodating BYOD (Bring Your Own Device) schemes to be flexible for different company employees for various preferences to productivity lifestyles, such as the recent rise of remote working.
+The entirety of the company's endpoint fleet relies on Windows 11 Pro (version 22H2), which has already been flagged as "end of support" [@Microsoft2023] by Microsoft themselves (within approximately 9 months). This has a huge impact on future updates and security patches. Even generic configurations of system settings via the Control Panel could lead to vulnerabilities [@DMCXBlueRedTeam2022] being brought to fruition. An over-dependence on Microsoft services only could lead to prominent security gaps. There are also issues in accommodating BYOD (Bring Your Own Device) schemes to be flexible for different company employees for various preferences to productivity lifestyles, such as the recent rise of remote working.
 
 ### 2.2.3 Network components
 
@@ -66,7 +69,7 @@ In addition, although not directly security-related, thorough documentation that
 
 The National Institute of Standards of Technology (NIST) Tiered Risk Management (TRM) approach has been chosen to be applied to this company under an information security assessment. This specific TRM however offers a four-tiered scalable method to evaluate an organisation's cybersecurity practices.
 
-Key features of this four-tiered TRM approach [@NIST2023] include:
+Key features of this four-tiered TRM approach [@nist2023] include:
 
 - Tier 1: Partial implementation (prioritisation and scope focus)
 - Tier 2: Risk-informed (evaluation of existing infrastructure)
@@ -112,14 +115,21 @@ A risk register is a tool to document all identified threats and vulnerabilities
 - $Inherent$ $risk$ $rating$: is the product of the $Impact$ and $Likelihood$ [@Prasanna2021].
 - $Assets$ $affected$: are the specific components of the infrastructure that the risk targets [@Prasanna2021].
 
-| Risk ID | Risk description                                                                                                                  | CVEs (if applicable)                                           | Impact | Likelihood | Inherent risk rating | Assets affected                     |
-| :-----: | :-------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | :----: | :--------: | :------------------: | :---------------------------------- |
-|   R1    | Outdated Windows 11 Pro server OS exposes services to remote code execution and privilege escalation exploits (PVE)               | [@cve202335633]                                                |  High  |    High    |       Extreme        | AD servers, E-mail servers          |
-|   R2    | Vulnerabilities in third-party apps like Oracle ERP Cloud applications enable backend server compromise, may allow for data theft | [@cve20212320], [@cve20212319], [@cve20212318], [@cve20212317] |  High  |   Medium   |         High         | Oracle ERP Cloud applications       |
-|   R3    | Lack of endpoint encryption results in the breach of sensitive customer data if the device is lost or stolen                      | [@cve202328005]                                                | Medium |    High    |         High         | Windows 11 laptops and workstations |
-|   R4    | Outdated antivirus definitions are unable to recognize the latest malware signatures, which may lead to ransomware attacks        | [@WNDF-AV-000029] (CVE ID not available)                       | Medium |    High    |         High         | Windows endpoints                   |
-|   R5    | Weak administrator passwords allow brute force or dictionary attacks and enable backend takeover                                  | [@cve20221039] (For Linux hosts)                               |  High  |   Medium   |       Extreme        | Domain admin accounts               |
-|   R6    | Unpatched network devices act as an entry point for accessing other servers hosting sensitive information                         | N/A, due to obscurity of network details                       | Medium |   Medium   |       Moderate       | Firewalls, Switches, VPN devices    |
+\begin{table}[htb]
+\centering
+\begin{tabular}{|p{0.05\textwidth}|p{0.25\textwidth}|p{0.1\textwidth}|p{0.1\textwidth}|p{0.25\textwidth}|p{0.1\textwidth}|}
+\hline
+Risk ID & Risk description & CVEs (if applicable) & Impact & Likelihood & Inherent risk rating & Assets affected \\
+\hline
+R1 & Outdated Windows 11 Pro server OS exposes services to remote code execution and privilege escalation exploits (PVE) & [@cve202335633] & High & High & Extreme & AD servers, E-mail servers \\
+R2 & Vulnerabilities in third-party apps like Oracle ERP Cloud applications enable backend server compromise, may allow for data theft & [@cve20212320], [@cve20212319], [@cve20212318], [@cve20212317] & High & Medium & High & Oracle ERP Cloud applications \\
+R3 & Lack of endpoint encryption results in the breach of sensitive customer data if the device is lost or stolen & [@cve202328005] & Medium & High & High & Windows 11 laptops and workstations \\
+R4 & Outdated antivirus definitions are unable to recognize the latest malware signatures, which may lead to ransomware attacks & [@wndfav0000292023] (CVE ID not available) & Medium & High & High & Windows endpoints \\
+R5 & Weak administrator passwords allow brute force or dictionary attacks and enable backend takeover & [@cve20221039] (For Linux hosts) & High & Medium & Extreme & Domain admin accounts \\
+R6 & Unpatched network devices act as an entry point for accessing other servers hosting sensitive information & N/A, due to obscurity of network details & Medium & Medium & Moderate & Firewalls, Switches, VPN devices \\
+\hline
+\end{tabular}
+\end{table}
 
 # 4 Mitigation strategies
 
@@ -127,7 +137,7 @@ Effective mitigation strategies are a combination of introducing multiple securi
 
 ## 4.1 R1 mitigation – Outdated Windows Server OS
 
-This risk arises as a result of using an unsupported version of Microsoft Windows Server – still active within the organisation's infrastructure, meaning that it opens exposure to publicly available vulnerabilities where security patches are still necessary. This opens up a much-needed migration plan, in which an upgrade to the latest Windows Server OS (or a Linux equivalent alternatively) should be the main priority. Additionally, regular OS patches in the form of updates should be automated using in-build tools such as Windows Server Update Services (WSUS) rather than relying on system administrators to manually apply patches. Furthermore, legacy servers with any pending updates should be hardened and reviewed against credible benchmarking software, such as CIS. Finally, constant access reviews on the Active Directory can help minimise the attack surface.
+This risk arises as a result of using an unsupported version of Microsoft Windows Server – still active within the organisation's infrastructure, meaning that it opens exposure to publicly available vulnerabilities where security patches are still necessary. This opens up a much-needed migration plan, in which an upgrade to the latest Windows Server OS (or a Linux equivalent) should be the main priority. Additionally, regular OS patches in the form of updates should be automated using in-build tools such as Windows Server Update Services (WSUS) rather than relying on system administrators to manually apply patches. Furthermore, legacy servers with any pending updates should be hardened and reviewed against credible benchmarking software, such as CIS. Finally, constant access reviews on the Active Directory can help minimise the attack surface.
 
 ## 4.2 R2 mitigation – Vulnerable Oracle Enterprise Cloud Solution
 
