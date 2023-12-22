@@ -5,8 +5,6 @@ bibliography: references.bib
 toc: true
 toc-title: Table of Contents
 toc-depth: 3
-latex_engine: xelatex
-keep_tex: true
 geometry: margin=1in
 csl: harvard-imperial-college-london.csl
 ---
