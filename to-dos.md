@@ -33,5 +33,7 @@
 
 ## Miscellaneous tasks
 
-- [ ] Add references for the different standards, controls and policies.
-- [ ] Rewrite certain AI-generated phrases.
+- [x] Add references in general.
+- [ ] Rewrite certain AI-generated phrases
+- [ ] Fix table formatting options
+- [x] Add hyperlinks references where necessary
