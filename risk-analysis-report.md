@@ -6,7 +6,7 @@ toc: true
 toc-title: Table of Contents
 toc-depth: 3
 fontsize: 10
-geometry: "left=2cm, right=2cm, top=2cm, bottom=2cm, letterpaper, landscape"
+geometry: "left=2cm, right=2cm, top=2cm, bottom=2cm"
 csl: harvard-imperial-college-london.csl
 ---
 
@@ -125,14 +125,14 @@ A risk register is a tool to document all identified threats and vulnerabilities
 
 ## 3.1 CVEs (if applicable) for identified risks
 
-| Risk ID | CVEs (if applicable)                                           |
-| :-----: | :------------------------------------------------------------- |
-|   R1    | [@cve202335633]                                                |
-|   R2    | [@cve20212320], [@cve20212319], [@cve20212318], [@cve20212317] |
-|   R3    | [@cve202328005]                                                |
-|   R4    | [@wndfav0000292023] – CVE ID not available                     |
-|   R5    | [@cve20221039] – For Linux hosts                               |
-|   R6    | N/A, due to obscurity of network details                       |
+| Risk ID | CVEs (if applicable)                                                                                                   |
+| :-----: | :--------------------------------------------------------------------------------------------------------------------- |
+|   R1    | CVE-2023-35633 [@cve202335633]                                                                                         |
+|   R2    | CVE-2021-2320 [@cve20212320], CVE-2021-2319 [@cve20212319], CVE-2021-2318 [@cve20212318], CVE-2021-2317 [@cve20212317] |
+|   R3    | CVE-2023-28005 [@cve202328005]                                                                                         |
+|   R4    | WNDF-AV-000029 [@wndfav0000292023] – CVE ID not available                                                              |
+|   R5    | CVE-2022-1039 [@cve20221039] – For Linux hosts                                                                         |
+|   R6    | N/A, due to obscurity of network details                                                                               |
 
 # 4 Mitigation strategies
 
