@@ -6,7 +6,7 @@ toc: true
 toc-title: Table of Contents
 toc-depth: 3
 fontsize: 10
-geometry: "left=2cm, right=2cm, top=2cm, bottom=2cm"
+geometry: "left=3cm, right=3cm, top=3cm, bottom=3cm"
 csl: harvard-imperial-college-london.csl
 ---
 
