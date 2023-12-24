@@ -7,7 +7,6 @@ toc-title: Table of Contents
 toc-depth: 3
 fontsize: 10
 geometry: "left=2cm, right=2cm, top=2cm, bottom=2cm, letterpaper, landscape"
-css: styles.css
 csl: harvard-imperial-college-london.csl
 ---
 
@@ -96,7 +95,7 @@ The scope should be narrowed to only focus on the necessary parts of the organsi
 
 ### 2.4.2 Tier 2 – Risk-informed
 
-See [2.2](#22-assessment-of-the-current-it-infrastructure-22).
+See [2.2](#22-assessment-of-the-current-it-infrastructure).
 
 ### 2.4.3 Tier 3 – Repeatable
 
@@ -115,16 +114,25 @@ A risk register is a tool to document all identified threats and vulnerabilities
 - $Risk$ $rating$: is the product of the $Impact$ and $Likelihood$ [@Prasanna2021].
 - $Assets$ $affected$: are the specific components of the infrastructure that the risk targets [@Prasanna2021].
 
-| Risk                                                                                                      | CVEs (if applicable)                                           | Impact | Likelihood | Risk rating | Assets affected                  |
-| :-------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | :----: | :--------: | :---------: | :------------------------------- |
-| R1: Outdated Windows 11 Pro server OS may lead to remote code execution and privilege escalation exploits | [@cve202335633]                                                |  High  |    High    |   Extreme   | AD servers, E-mail servers       |
-| R2: Vulnerabilities in third-party apps like Oracle ERP Cloud may allow for data theft                    | [@cve20212320], [@cve20212319], [@cve20212318], [@cve20212317] |  High  |   Medium   |    High     | Oracle ERP Cloud applications    |
-| R3: Without endpoint encryption, losing or stealing a device may compromise sensitive customer data       | [@cve202328005]                                                | Medium |    High    |    High     | Windows 11 workstations          |
-| R4: Outdated antivirus do not have the latest malware signatures, which may lead to ransomware attacks    | [@wndfav0000292023] (CVE ID not available)                     | Medium |    High    |    High     | Windows endpoints                |
-| R5: Weak administrator passwords allow brute force or dictionary attacks for backend takeover             | [@cve20221039] (For Linux hosts)                               |  High  |   Medium   |   Extreme   | Domain admin accounts            |
-| R6: Unpatched network devices can serve as entry points to access servers hosting sensitive information   | N/A, due to obscurity of network details                       | Medium |   Medium   |  Moderate   | Firewalls, Switches, VPN devices |
+| Risk ID | Risk description                                                                                      | Impact | Likelihood | Risk rating | Assets affected                  |
+| :-----: | :---------------------------------------------------------------------------------------------------- | :----: | :--------: | :---------: | :------------------------------- |
+|   R1    | Outdated Windows 11 Pro server OS may lead to remote code execution and privilege escalation exploits |  High  |    High    |   Extreme   | AD servers, E-mail servers       |
+|   R2    | Vulnerabilities in third-party apps like Oracle ERP Cloud may allow for data theft                    |  High  |   Medium   |    High     | Oracle ERP Cloud applications    |
+|   R3    | Without endpoint encryption, losing or stealing a device may compromise sensitive customer data       | Medium |    High    |    High     | Windows 11 workstations          |
+|   R4    | Outdated antivirus do not have the latest malware signatures, which may lead to ransomware attacks    | Medium |    High    |    High     | Windows endpoints                |
+|   R5    | Weak administrator passwords allow brute force or dictionary attacks for backend takeover             |  High  |   Medium   |   Extreme   | Domain admin accounts            |
+|   R6    | Unpatched network devices can serve as entry points to access servers hosting sensitive information   | Medium |   Medium   |  Moderate   | Firewalls, Switches, VPN devices |
 
-{.risk-register-table}
+## 3.1 CVEs (if applicable) for identified risks
+
+| Risk ID | CVEs (if applicable)                                           |
+| :-----: | :------------------------------------------------------------- |
+|   R1    | [@cve202335633]                                                |
+|   R2    | [@cve20212320], [@cve20212319], [@cve20212318], [@cve20212317] |
+|   R3    | [@cve202328005]                                                |
+|   R4    | [@wndfav0000292023] – CVE ID not available                     |
+|   R5    | [@cve20221039] – For Linux hosts                               |
+|   R6    | N/A, due to obscurity of network details                       |
 
 # 4 Mitigation strategies
 

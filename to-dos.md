@@ -20,6 +20,7 @@
     - [x] ~~2.4.3 Tier 3 – Repeatable~~
     - [x] ~~2.4.4 Tier 4 – Adaptive~~
 - [x] ~~3 Risk register~~
+  - [x] ~~3.1 CVEs (if applicable) for identified risks~~
 - [x] ~~4 Mitigation strategies~~
   - [x] ~~4.1 R1 mitigation – Outdated Windows Server OS~~
   - [x] ~~4.2 R2 mitigation – Vulnerable Oracle Enterprise Cloud Solution~~
