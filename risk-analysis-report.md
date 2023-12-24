@@ -114,14 +114,14 @@ A risk register is a tool to document all identified threats and vulnerabilities
 - $Risk$ $rating$: is the product of the $Impact$ and $Likelihood$ [@Prasanna2021].
 - $Assets$ $affected$: are the specific components of the infrastructure that the risk targets [@Prasanna2021].
 
-| Risk description                                                                                       | Impact | Likelihood | Risk rating | Assets affected                  |
-| :----------------------------------------------------------------------------------------------------- | :----: | :--------: | :---------: | :------------------------------- |
-| R1: Outdated Windows 11 Pro server OS leads to remote code execution and privilege escalation exploits |  High  |    High    |   Extreme   | AD servers, E-mail servers       |
-| R2: Vulnerabilities in the Oracle ERP Cloud may allow for data theft                                   |  High  |   Medium   |    High     | Oracle ERP Cloud applications    |
-| R3: Without endpoint encryption, losing or stealing a device may compromise sensitive customer data    | Medium |    High    |    High     | Windows 11 workstations          |
-| R4: Outdated antivirus don't have the latest malware signatures, which may lead to ransomware attacks  | Medium |    High    |    High     | Windows endpoints                |
-| R5: Weak admin passwords allow brute force or dictionary attacks for backend takeover                  |  High  |   Medium   |   Extreme   | Domain admin accounts            |
-| R6: Unpatched network devices act as entry points to access servers hosting sensitive information      | Medium |   Medium   |  Moderate   | Firewalls, Switches, VPN devices |
+| Risk description                                                                                  | Impact | Likelihood |  Rating  | Assets affected                  |
+| :------------------------------------------------------------------------------------------------ | :----: | :--------: | :------: | :------------------------------- |
+| R1: Outdated Windows server OS leads to remote code execution and privilege escalation exploits   |  High  |    High    | Extreme  | AD servers, E-mail servers       |
+| R2: Vulnerabilities in the Oracle ERP Cloud may allow for data theft                              |  High  |   Medium   |   High   | Oracle ERP Cloud applications    |
+| R3: Without endpoint encryption, losing or stealing a device may compromise sensitive data        | Medium |    High    |   High   | Windows 11 workstations          |
+| R4: Outdated antivirus don't have the latest malware signatures, leading to ransomware attacks    | Medium |    High    |   High   | Windows endpoints                |
+| R5: Weak admin passwords allows for brute force or dictionary attacks                             |  High  |   Medium   | Extreme  | Domain admin accounts            |
+| R6: Unpatched network devices act as entry points to access servers hosting sensitive information | Medium |   Medium   | Moderate | Firewalls, Switches, VPN devices |
 
 ## 3.1 CVEs (if applicable) for identified risks
 
