@@ -115,13 +115,13 @@ A risk register is a tool to document all identified threats and vulnerabilities
 - $Assets$ $affected$: are the specific components of the infrastructure that the risk targets [@Prasanna2021].
 
 | Risk description                                                                            | Impact | Likelihood | Rating  |                  Assets affected |
-| :------------------------------------------------------------------------------------------ | :----- | :--------- | :------ | -------------------------------: |
-| R1: Outdated Windows OS leads to remote code execution and privilege escalation exploits    | High   | High       | Extreme |       AD servers, E-mail servers |
-| R2: Vulnerabilities in Oracle ERP Cloud allow for data theft                                | High   | Mid        | High    |    Oracle ERP Cloud applications |
-| R3: Without endpoint encryption, losing or stealing a device compromises sensitive data     | Mid    | High       | High    |             Windows workstations |
-| R4: Outdated antivirus don't have updated malware signatures, leading to ransomware attacks | Mid    | High       | High    |                Windows endpoints |
-| R5: Weak admin passwords allows for brute force or dictionary attacks                       | High   | Mid        | Extreme |            Domain admin accounts |
-| R6: Unpatched network devices act as entry points to access sensitive information           | Mid    | Mid        | Mid     | Firewalls, switches, VPN devices |
+| :------------------------------------------------------------------------------------------ | :----: | :--------: | :-----: | -------------------------------: |
+| R1: Outdated Windows OS leads to remote code execution and privilege escalation exploits    |  High  |    High    | Extreme |       AD servers, E-mail servers |
+| R2: Vulnerabilities in Oracle ERP Cloud allow for data theft                                |  High  |    Mid     |  High   |    Oracle ERP Cloud applications |
+| R3: Without endpoint encryption, losing or stealing a device compromises sensitive data     |  Mid   |    High    |  High   |             Windows workstations |
+| R4: Outdated antivirus don't have updated malware signatures, leading to ransomware attacks |  Mid   |    High    |  High   |                Windows endpoints |
+| R5: Weak admin passwords allows for brute force or dictionary attacks                       |  High  |    Mid     | Extreme |                  Domain accounts |
+| R6: Unpatched network devices act as entry points to access sensitive information           |  Mid   |    Mid     |   Mid   | Firewalls, switches, VPN devices |
 
 ## 3.1 CVEs (if applicable) for identified risks
 
