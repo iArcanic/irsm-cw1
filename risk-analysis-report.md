@@ -14,9 +14,9 @@ csl: harvard-imperial-college-london.csl
 
 A tech company with approximately 400 employees in its workforce, has recently been awarded a major UK government contract along with a bonus of 30% of revenue. This project is now considered with the utmost importance and requires significant focus.
 
-As the company doesn't work with any UK government already, its existing information security policies are highly unlikely to meet their governmental standards. This means that it is mandatory to implement robust security regulations to adhere to UK government vendors.
+As the company doesn't work with any UK government already, its existing information security policies are highly unlikely to meet governmental standards. This means that it is mandatory to implement robust security regulations to adhere to UK government vendors.
 
-This risk analysis report aims to analyse the company's current security mindset, identify any vulnerabilities within its present infrastructure, and outline any outstanding actions to address any security gaps, all via a credible framework. Based on this, recommendations will also be provided to help safeguard against threats and sustainably comply with any protocols or laws defined by the UK government.
+This risk analysis report aims to analyse the company's current security mindset, identify any vulnerabilities within the infrastructure, and outline any outstanding actions to address security gaps, all via a credible framework. Based on this, recommendations will also be provided to help safeguard against threats and sustainably comply with any protocols or laws defined by the UK government.
 
 # 2 Evaluation of organisational risk posture
 
@@ -30,7 +30,7 @@ This is a framework that provides 14 guidelines across various categories, inclu
 
 ### 2.1.2 ISO/IEC standards – 27001:2013
 
-An internationally recognised standard for security published by ISO and IEC. Serves as a set of requirements for information security management via criteria of technical security mechanisms [@Nunn2021]. A valid certification proves secure information security practices whilst being in line with the CIA triad elements.
+An internationally recognised standard for security published by ISO and IEC. Serves as a set of requirements for information security management via criteria of technical security mechanisms [@Nunn2021]. A valid certification proves secure information security practices.
 
 ### 2.1.3 Cloud security guidance – CSA Cloud Controls Matrix (CCM)
 
@@ -38,17 +38,17 @@ Guidance for cloud-based services and technologies, adapted for security control
 
 ### 2.1.4 End user device guidelines – EUD Security Guidance
 
-Published by the UK National Cyber Security Centre (NCSC), it is the risk treatment when considering deployment on the end user or personal devices to mitigate any remote-based vulnerabilities that could be exploited by malicious actors [@ncsc2021]. Aims to help organisations manage risks from remote attacks.
+Published by the UK National Cyber Security Centre (NCSC), it is the risk treatment when considering deployment on end-user or personal devices to mitigate any remote vulnerabilities that could be exploited by malicious actors [@ncsc2021].
 
 ## 2.2 Assessment of the current IT infrastructure
 
-Although the infrastructure devices use modern and widely adopted enterprise solutions to be suitable for mainstream support, there are still inherent vulnerabilities that need to be addressed. This may include a large attack surface area being exposed, posing a variety of problems from an information security standpoint.
+Although the infrastructure devices use modern and widely adopted enterprise solutions to be suitable for mainstream support, there are still inherent vulnerabilities that need to be addressed. This may include large attack surface areas being exposed, posing a variety of problems from an information security standpoint.
 
 ### 2.2.1 Server infrastructure
 
-Looking more in-depth at their server landscape, 12 servers consist of Microsoft Server 2022 (specifically build 10.0.20348.1787), whilst the rest host Linux Ubuntu 22.04 LTS. Both are critical to the key services of the company's computing environment, for functions such as Active Directory (AD), e-mail, website hosting, DNS, and Oracle Cloud ERP services.
+Looking more in-depth at the server landscape, 12 servers consist of Microsoft Server 2022 (specifically build 10.0.20348.1787), whilst the rest host Linux Ubuntu 22.04 LTS. Both are critical to the key services of the company's computing environment, for functions such as Active Directory (AD), e-mail, website hosting, DNS, and Oracle Cloud ERP services.
 
-Even though the more up-to-date version of Windows may be more secure, malicious entities work tirelessly to develop evolving exploits, so routine and timely patching is required. Additionally, third-party providers such as Oracle present their own set of unique problems, where vulnerability mitigation requires a coordinated response from both companies.
+Even though the more up-to-date version of Windows may be more secure, malicious entities work tirelessly to develop exploits, so routine and timely patching is required. Additionally, third-party providers such as Oracle present their own set of unique problems, where vulnerability mitigation requires a coordinated response from both companies.
 
 Specifically, the Research and Development (R&D) Engineering network segment indicates the presence of data flows to other environments, which may be intercepted in transmission [@Zou2013]. If there is an obvious lack of visibility of common server hardening practices that meet typical industrial baselines, the entire company's technological infrastructure could be exposed. This therefore makes these servers less trustworthy.
 
@@ -87,7 +87,7 @@ The TRM methodology selected, NIST, will now be applied to evaluate the cyber ri
 
 ### 2.4.1 Tier 1 – Partial implementation
 
-The scope should be narrowed to only focus on the necessary parts of the organsiation. Daily operations and serving customers include the usage of Active Directory (AD) servers, Microsoft Exchange environment, and Oracle SaaS-based enterprise solutions. Verified asset categories consist of 460 Windows 11 endpoints, 12 servers, and cloud applications. Additionally, sensitive data such as user credentials, may be stored in the AD, employee personal information on the Microsoft Exchange Server, and financial records within Oracle's cloud application. These are categorised as "high-value information assets" [@Tatar2021], requiring strict access controls.
+The scope should be narrowed to only focus on the necessary parts of the organisation. Daily operations and serving customers include the usage of Active Directory (AD) servers, Microsoft Exchange environment, and Oracle SaaS-based enterprise solutions. Verified asset categories consist of 460 Windows 11 endpoints, 12 servers, and cloud applications. Additionally, sensitive data such as user credentials, may be stored in the AD, employee personal information on the Microsoft Exchange Server, and financial records within Oracle's cloud application. These are categorised as "high-value information assets" [@Tatar2021], requiring strict access controls.
 
 ### 2.4.2 Tier 2 – Risk-informed
 
@@ -95,11 +95,11 @@ See [2.2](#22-assessment-of-the-current-it-infrastructure).
 
 ### 2.4.3 Tier 3 – Repeatable
 
-Efficient threat modeling focused on devices running Windows 11 Pro can help to recognise ransomware, password dictionary attacks, and insider threats and will all be considered high-impact information security events. For the Azure-hosted Oracle cloud solution applications, unauthorised data processing actions and lack of awareness when handling data, in general, should alert the Cloud Security Alliance (CSA). There should be rigorous documentation addressing risk scenarios specific to the company's information security – any likelihood and magnitudes. The mapping of any risks will help realise what security aspects most of the company's attention is required for, and what mitigation strategies need to be put in place.
+Efficient threat modeling focused on devices running Windows 11 Pro can help to recognise ransomware, password dictionary attacks, and insider threats and be considered as high-impact information security events. For the Azure-hosted Oracle cloud solution applications, unauthorised data processing actions and lack of awareness when handling data, in general, should alert the Cloud Security Alliance (CSA). There should be rigorous documentation addressing risk scenarios specific to the company's information security – any likelihood and magnitudes. The mapping of risks will help realise what security aspects most of the company's attention is required for, and what mitigation strategies are required.
 
 ### 2.4.4 Tier 4 – Adaptive
 
-This tier focuses on the ongoing tracking of security risks through relevant key risk indicators (KRIs) for quick responses [@Andersen2016]. Implementing a Security Information and Event Management (SIEM) platform [@Gonzalez2021] allows the company to track risk metrics across Windows servers, endpoints, and Oracle Cloud assets. Setting up dashboards for information security admins with details on critical risks, reminders for patch delays, unathorised access attempts, and anomalous data transfers can prove to be beneficial in the long term for risk mitigation. This relies on the risk register (see [3](#3-risk-register)) to be constantly updated with the latest threats. Any new infrastructure that the company decides to implement will undergo risk evaluations to see whether it compromises any existing infrastructure.
+This tier focuses on the ongoing tracking of security risks through relevant key risk indicators (KRIs) for quick responses [@Andersen2016]. Implementing a Security Information and Event Management (SIEM) platform [@Gonzalez2021] allows the company to track risk metrics across Windows servers, endpoints, and Oracle Cloud assets. Setting up dashboards for information security admins with details on critical risks, unathorised access attempts, and anomalous data transfers can prove to be beneficial. This relies on the risk register (see [3](#3-risk-register)) to be constantly updated with the latest threats. Any new infrastructure the company decides to implement will undergo risk evaluations to see whether it compromises any existing infrastructure.
 
 # 3 Risk register
 
@@ -132,19 +132,19 @@ A risk register is a tool to document all identified threats and vulnerabilities
 
 # 4 Mitigation strategies
 
-Effective mitigation strategies introduce multiple security controls. The aim, given in mind the $Risk$ $rating$, would be to reduce the risk $Likelihood$ or the $Impact$ itself. Any measures should efficiently address information security gaps within the existing infrastructure technology, as highlighted by the risk assessment. Within this section, the top three most high-priority risks will be explored further in detail.
+Effective mitigation strategies introduce multiple security controls. The aim, given in mind the $Risk$ $rating$, would be to reduce the risk $Likelihood$ or the $Impact$ itself. Any measures should efficiently address information security gaps within the infrastructure technology, as highlighted by the risk assessment. Within this section, the top three most high-priority risks will be explored.
 
 ## 4.1 R1 mitigation – Outdated Windows Server OS
 
-This risk arises as a result of using an unsupported version of Windows Server – still active within the organisation's infrastructure, meaning that it opens exposure to publicly available vulnerabilities where security patches are still pending. This opens up a migration plan, in which an upgrade to the latest Windows Server OS (or a Linux equivalent) is the main priority. Additionally, regular OS patches should be automated using built-in tools such as Windows Server Update Services (WSUS) rather than reliance on manual patches. Furthermore, legacy servers with any pending updates should be hardened and reviewed against credible benchmarking software, such as CIS.
+This risk arises as a result of using an unsupported version of Windows Server – still active within the organisation's infrastructure, meaning that it opens exposure to publicly available vulnerabilities where security patches are still pending. This opens up a migration plan, in which an upgrade to the latest Windows Server OS (or a Linux equivalent) is the main priority. Additionally, regular OS patches should be automated using built-in tools such as Windows Server Update Services (WSUS) rather than manual patches. Furthermore, legacy servers with any pending updates should be hardened against credible benchmarking software, such as CIS.
 
 ## 4.2 R2 mitigation – Vulnerable Oracle Enterprise Cloud Solution
 
-The cloud-based Oracle Enterprise Solution platform would benefit from a coordinated mitigation plan between both companies. Any user accounts and their corresponding roles should be examined to ensure that any inactive identities and user privileges are promptly dealt with. Data classification procedures will categorise any sensitive financial information traversing within Oracle's data flow and prevent any data loss. It is also Oracle's responsibility to provide reliable assurance of their security certifications, vulnerability remediation measures, and patch deployments via clear documentation. Without this, the company should not announce a shift to using any Oracle services.
+The cloud-based Oracle Enterprise Solution platform would benefit from a coordinated mitigation plan between both companies. Any user accounts and their corresponding roles should be examined to ensure that any inactive identities and user privileges are dealt with. Data classification procedures will categorise any sensitive financial information traversing within Oracle's data flow. It is also Oracle's responsibility to provide reliable assurance of their security certifications, vulnerability remediation measures, and patch deployments via clear documentation. Without this, the company should not announce a shift to using any Oracle services.
 
 ## 4.3 R5 mitigation – Weak administrator passwords
 
-Multi-factor authentication (MFA) should be enforced for all interfaces providing administrative access including domain controller logins. Provision Privileged Access Management (PAM) solutions can serve as a secure password vault for administrator accounts. There should also be continuous scans for all password hashes across all systems within the infrastructure to pinpoint any weak credentials in active use – in conjunction with strict password policies. Also limiting endpoint workstations that host developer tools, such as debuggers and compilers – attackers may potentially load exploits via those applications.
+Multi-factor authentication (MFA) should be enforced for all interfaces providing administrative access including domain controller logins. Provision Privileged Access Management (PAM) solutions can serve as a secure password vault for administrator accounts. There should also be continuous scans for all password hashes across all systems to pinpoint any weak credentials in active use. Also limiting endpoint workstations that host developer tools, such as debuggers and compilers – attackers may potentially load exploits via those applications.
 
 # 5 Future recommendations
 
