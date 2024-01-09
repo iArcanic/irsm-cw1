@@ -35,6 +35,6 @@
 ## Miscellaneous tasks
 
 - [x] Add references in general.
-- [ ] Rewrite certain AI-generated phrases
-- [ ] Fix table formatting options
+- [x] Rewrite certain AI-generated phrases
+- [x] Fix table formatting options
 - [x] Add hyperlinks references where necessary
